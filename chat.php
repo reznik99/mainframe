@@ -2,7 +2,7 @@
   //error reporting
   //ini_set('display_errors', 1); error_reporting(E_ALL);
 
-  $mysql_con = mysqli_connect("localhost", "root", "mainframe451", "MainframeDB");
+  $mysql_con = mysqli_connect("localhost", "root", "password", "MainframeDB");
   if($mysql_con->connect_error) {
       die($mysql_con->connect_error);
   }
